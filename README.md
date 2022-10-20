@@ -1,5 +1,9 @@
 # AH
 
+# Demo
+
+[Click Here](https://ah-snowy.vercel.app) to see the demo running.
+
 # Overview
 
 This project uses some React and Redux feature to keep a counter running, it can run using a plain old javascript interval timer or by user interaction, the state is kept in Redux and the step can be configured by choosing the proper value in the web ui.
@@ -15,10 +19,10 @@ Some of the changes implemented:
 
 Other important remarks
 - The original file was splitted in 3 to make testing simpler.
-  -- src/
-  ------ [App.tsx](src/App.tsx): Main component
-  ------ [store.tsx](src/store.tsx) : Redux Objects
-  ------ [index.tsx](src/index.tsx) : Main React file
+    - src/
+        - [App.tsx](src/App.tsx): Main component
+        - [store.tsx](src/store.tsx) : Redux Objects
+        - [index.tsx](src/index.tsx) : Main React file
 
 Test:
 - Test are in file (src/index.test.tsx)
@@ -26,8 +30,6 @@ Test:
 ![Test Output](./test.png)
 
 
-# Demo
-This project is deployed at 
 
 
 ## Available Scripts
